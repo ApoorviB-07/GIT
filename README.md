@@ -43,8 +43,17 @@ git push -u origin main
    * git log --> to show git commits
    * git log --oneline --> to show smaller commits
    * git show <commitid> --> to see the changes
+   * git checkout <branchname> --> to switch branches
+   * git checkout -b <branchname> --> to create new branch
+   * git merge <nameofbranchuwanttomerge> --> to merge changes of one branch to another (make sure ypu are in the branch in which u want to merge changes)
+   * git clone <url> --> to copy repo from remote to local
 
-
+GIT ROLLBACK
+------------
+* git checkout <filename> --> to undo the changes in file, if file is not moved to staging area
+* git restore --staged <filename> --> if u want to rollback file that is in staging area
+* git revert HEAD --> if u have commit the file and then you want to rollback, but it will create a new commit that will be same as previous commit
+* git reset --hard <comitid_of_version_u_want_to_go> 
 
 
 
