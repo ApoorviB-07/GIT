@@ -9,9 +9,10 @@ Everything I learned about GIT and GITHUB
    #CENTRALIZED VERSION SYSTEM :- there is a single system where files and there version history are kept. Dev pulls code to local from cerntral system make changes                                    commit back to system.
    
    #DISTRIBUTED VERSION SYSTEM :- We can make copy of entire repo on our local, make changes, commits and merge it back to system repo.
-   ####################################################################################################################################################################
+   ---
+   ---
 
-2) Local Repo Setup
+3) Local Repo Setup
    ----------------
    set username and email that is common for all repo in local by:
 
